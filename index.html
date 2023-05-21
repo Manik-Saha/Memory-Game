@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <title>Memory Game</title>
+  </head>
+
+  <body>
+    <div class="bg-color">
+      <section id="game-landing-page">
+        <div class="front-background">
+          <img class="logo-style" src="./images/logo.png" alt="logo" />
+          <h1>Memory Game</h1>
+          <h3>Where you can boost your memory power</h3>
+          <i id="play" class="bi bi-play-circle play-icon"></i>
+        </div>
+      </section>
+    </div>
+
+    <section id="instructions">
+      <span class="skip">Skip <i class="bi bi-arrow-right"></i></span>
+      <h2 class="text-center">Some Instructions</h2>
+      <p>
+        Playing a memory game can be a fun and challenging activity. Here are
+        the basic instructions to play a memory game:
+      </p>
+      <ul>
+        <li>
+          <strong>Set up the game:</strong> Start by laying out a set of cards
+          or tiles facedown on a table or playing area. The number of cards will
+          depend on the difficulty level you choose.
+        </li>
+        <li>
+          <strong>Turn over two cards:</strong> The first player flips over any
+          two cards, one at a time, so that all players can see the pictures or
+          symbols on the cards.
+        </li>
+        <li>
+          <strong>Try to make a match:</strong> The player then tries to make a
+          match by finding two cards with the same picture or symbol. If the
+          cards match, the player keeps them and takes another turn. If they
+          don't match, the player turns them back face down in the same position
+          and play passes to the next player.
+        </li>
+        <li>
+          <strong>Remember card positions: </strong>As the game progresses,
+          players need to remember the positions of the cards that have been
+          flipped over. This memory aspect of the game is crucial for finding
+          matches.
+        </li>
+        <li>
+          <strong>Take turns: </strong>Players continue taking turns, flipping
+          over two cards at a time, trying to make matches. The game continues
+          until all the cards have been matched.
+        </li>
+        <li>
+          <strong>Count the matches:</strong> Once all the cards have been
+          matched, count the number of matches each player has made. The player
+          with the most matches is the winner.
+        </li>
+      </ul>
+      <br />
+      <div class="instruc_btn">
+        <button
+          id="instruction-previous-btn"
+          class="btn btn-color"
+          type="button"
+        >
+          <i class="bi bi-arrow-left"></i> Previous
+        </button>
+        <button id="instruction-next-btn" class="btn btn-color" type="button">
+          Next <i class="bi bi-arrow-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <section id="tips">
+      <span class="skip">Skip <i class="bi bi-arrow-right"></i></span>
+      <h2 class="text-center">Tips for playing</h2>
+      <ul>
+        <li>
+          Pay attention to the cards your opponents flip over to remember their
+          positions.
+        </li>
+        <li>
+          Concentrate and focus on remembering the positions of the cards to
+          improve your chances of making matches.
+        </li>
+        <li>
+          Start with a smaller number of cards for younger players or beginners
+          and increase the difficulty level as players become more experienced.
+        </li>
+      </ul>
+      <br />
+      <div class="instruc_btn">
+        <button id="tips-previous-btn" class="btn btn-color" type="button">
+          <i class="bi bi-arrow-left"></i> Previous
+        </button>
+        <button id="tips-next-btn" class="btn btn-color" type="button">
+          Next <i class="bi bi-arrow-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <section id="label-1">
+      <h2 class="text-center">Label 01</h2>
+      <h6 class="text-center">
+        Click the card to flip and match the second flip card with the first one
+      </h6>
+      <br />
+      <ul class="w-100">
+        <li>
+          <div class="view front-view">
+            <img class="game-card" src="./images/question.png" alt="" />
+          </div>
+          <div class="view back-view">
+            <img class="game-card" src="./images/heart.png" alt="" />
+          </div>
+        </li>
+        <li>
+          <div class="view front-view">
+            <img class="game-card" src="./images/question.png" alt="" />
+          </div>
+          <div class="view back-view">
+            <img class="game-card" src="./images/brain.png" alt="" />
+          </div>
+        </li>
+        <li>
+          <div class="view front-view">
+            <img class="game-card" src="./images/question.png" alt="" />
+          </div>
+          <div class="view back-view">
+            <img class="game-card" src="./images/game.png" alt="" />
+          </div>
+        </li>
+        <li>
+          <div class="view front-view">
+            <img class="game-card" src="./images/question.png" alt="" />
+          </div>
+          <div class="view back-view">
+            <img class="game-card" src="./images/joystick.png" alt="" />
+          </div>
+        </li>
+        <li>
+          <div class="view front-view">
+            <img class="game-card" src="./images/question.png" alt="" />
+          </div>
+          <div class="view back-view">
+            <img class="game-card" src="./images/kite_shape.png" alt="" />
+          </div>
+        </li>
+        <li>
+          <div class="view front-view">
+            <img class="game-card" src="./images/question.png" alt="" />
+          </div>
+          <div class="view back-view">
+            <img
+              class="game-card"
+              src="./images/rectangular_circle.png"
+              alt=""
+            />
+          </div>
+        </li>
+        <li>
+          <div class="view front-view">
+            <img class="game-card" src="./images/question.png" alt="" />
+          </div>
+          <div class="view back-view">
+            <img class="game-card" src="./images/heart.png" alt="" />
+          </div>
+        </li>
+        <li>
+          <div class="view front-view">
+            <img class="game-card" src="./images/question.png" alt="" />
+          </div>
+          <div class="view back-view">
+            <img class="game-card" src="./images/brain.png" alt="" />
+          </div>
+        </li>
+        <li>
+          <div class="view front-view">
+            <img class="game-card" src="./images/question.png" alt="" />
+          </div>
+          <div class="view back-view">
+            <img class="game-card" src="./images/game.png" alt="" />
+          </div>
+        </li>
+        <li>
+          <div class="view front-view">
+            <img class="game-card" src="./images/question.png" alt="" />
+          </div>
+          <div class="view back-view">
+            <img class="game-card" src="./images/joystick.png" alt="" />
+          </div>
+        </li>
+        <li>
+          <div class="view front-view">
+            <img class="game-card" src="./images/question.png" alt="" />
+          </div>
+          <div class="view back-view">
+            <img class="game-card" src="./images/kite_shape.png" alt="" />
+          </div>
+        </li>
+        <li>
+          <div class="view front-view">
+            <img class="game-card" src="./images/question.png" alt="" />
+          </div>
+          <div class="view back-view">
+            <img
+              class="game-card"
+              src="./images/rectangular_circle.png"
+              alt=""
+            />
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="load-dynamic-content">
+      <div class="front-background"></div>
+    </section>
+  </body>
+
+  <script src="script.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+</html>
