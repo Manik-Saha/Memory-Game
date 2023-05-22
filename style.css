@@ -1,7 +1,10 @@
+* {
+  font-family: "Raleway";
+}
+
 .bg-color {
   min-height: 100vh;
   background-color: rgba(4, 255, 213, 0.1);
-  font-family: "Raleway";
   color: rgb(35, 141, 141);
   display: flex;
   justify-content: center;
@@ -18,9 +21,11 @@
   justify-content: center;
   align-items: center;
 }
+
 .logo-style {
   width: 10rem;
 }
+
 .front-background {
   background-color: rgb(154, 180, 176);
   padding: 5% 20%;
@@ -59,58 +64,75 @@ section div h1 {
   color: rgb(255, 255, 255) !important;
 }
 
-.instruc_btn{
-    display: flex;
-    justify-content: space-between;
+.instruc_btn {
+  display: flex;
+  justify-content: space-between;
 }
 
-.game-card{
-    width: 9rem;
-    border-radius: 10px;
-    box-shadow: 0 3px 10px rgb(16, 73, 73);
+.game-card {
+  width: 9rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(16, 73, 73);
 }
 
-.skip{
-    position: absolute;
-    right: 22%;
-    top: 13%;
-    color: red;
-    cursor: pointer;
+.skip {
+  position: absolute;
+  right: 22%;
+  top: 13%;
+  color: red;
+  cursor: pointer;
 }
-#label-1 ul{
+
+#label-1 ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
 }
 
-#label-1 ul li{
+#label-1 ul li {
   display: flex;
   gap: 5px;
   cursor: pointer;
 }
 
-.back-view{
+.back-view {
   display: none;
 }
 
-/* #label-1 ul li.shake{
+#step-counter {
+  border: 2px solid rgb(16, 73, 73);
+  color: rgb(16, 73, 73);
+  font-size: 1.7em;
+  width: 25%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.shake-shake {
   animation: shake 0.35s ease-in-out;
 }
+
 @keyframes shake {
-  0%, 100%{
+
+  0%,
+  100% {
     transform: translateX(0);
   }
-  20%{
+
+  20% {
     transform: translateX(-13px);
   }
-  40%{
+
+  40% {
     transform: translateX(13px);
   }
-  60%{
+
+  60% {
     transform: translateX(-8px);
   }
-  80%{
+
+  80% {
     transform: translateX(8px);
   }
-} */
+}
